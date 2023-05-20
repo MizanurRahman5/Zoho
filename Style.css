@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'ZohoPuvi', Georgia;
+    font-weight: 400;
+    visibility: visible;
+}
+
+.zoho_conteiner{
+    display: block;
+    visibility: visible;
+
+}
+.sign_in_conteiner {
+    width: 900px;
+    position: relative;
+    margin: auto;
+    display: block;
+    position: relative;
+    width: 890px;
+    min-height: 520px;
+    background-color: #fff;
+    box-shadow: 0px 2px 30px #ccc6;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    margin-top: 7%;
+    overflow: hidden;
+}
+.zoho_sign_box{
+    width: 500px;
+    min-height: 520px;
+    height: auto;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 50px 50px;
+    border-radius: 2px;
+    transition: all .1s ease-in-out;
+    float: left;
+    overflow-y: auto;
+    display: table-cell;
+    border-right: 2px solid #f1f1f1;
+}
+.zoho_logo{
+    display: block;
+    margin-bottom: 20px;
+    background-size: auto 100%;
+    height: 40px;
+    width: auto;
+}
+.zoho_sign_head{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 30px;
+    transition: all .1s ease-in-out;
+}
+.zoho-service_name{
+    line-height: 28px;
+    display: block;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+.zoho_fild_container .zoho_hello_user {
+    display: inline-flex;
+    justify-content: space-between;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-wrap: nowrap;
+}
+.zoho_fild_container .zoho_hello_user .zoho_user_name {
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 14px;
+    line-height: 20px;
+    width: auto;
+    word-break: break-all;
+}
+.zoho_hello_user .notYou{
+    position: relative;
+    float: right;
+    font-size: 14px;
+    padding: 0px 14px 0px 0px;
+    display: inline-block;
+    color: #0091FF;
+    line-height: 38px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zoho_fild_container .zoho_text_box {
+    display: block;
+    margin-bottom: 18px;
+    position: relative;
+}
+.zoho_text_box .textbox{
+    display: block;
+    width: 100%;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-indent: 12px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding-right: 12px;
+    transition: all .2s ease-in-out;
+    background: #f8f8f8;
+    border: 1px solid #E4E4E4;
+    appearance: none;
+}
+.zoho_text_box .zoho_icon {
+    font-size: 34px;
+    color: #a7a7a7;
+    position: absolute;
+    top: 7px;
+    right: 13px;
+    float: right;
+    cursor: pointer;
+}
+.zoho_textBox_action {
+    display: block;
+    margin-top: 20px;
+    height: 20px;
+    margin-bottom: 30px;
+}
+.zoho_textBox_action .zoho_blue_text_auction {
+    float: right;
+    display: inline-block;
+    font-size: 14px;
+    color: #159AFF;
+    font-weight: 500;
+    line-height: 16px;
+    cursor: pointer;
+}
+.zoho_button .Btn_blue  {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    letter-spacing: .5px;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: all .2s ease-in-out;
+    box-shadow: 0px 2px 2px #fff;
+    background-color: #159AFF;
+    color: #fff;
+}
+.zoho_button .Btn_blue span{
+    color: #fff;
+}
+.sign_in_conteiner .zoho_right_sitebox {
+    width: 390px;
+    height: auto;
+    float: right;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: #fff;
+    display: table-cell;
+    overflow: hidden;
+}
